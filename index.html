@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/baby.jpg">
+    <h1>Sally's Blog</h1>
+    <p>When it rains on my parade, I look up rather than down. Without the rain,  there would be no rainbow.</p> 
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">About Life</a></li>
+      <li><a href="#">About Love</a></li>
+      <li><a href="#">About Death</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About Life</h2>
+    <p>The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation. From the desperate city you go into the desperate country, and have to console yourself with the bravery of minks and muskrats. A stereotyped but unconscious despair is concealed even under what are called the games and amusements of mankind. There is no play in them, for this comes after work. But it is a characteristic of wisdom not to do desperate things~Henry David Thoreau.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>About Death</h2>
+    <p>If man were immortal he could be perfectly sure of seeing the day when everything in which he had trusted should betray his trust, and, in short, of coming eventually to hopeless misery. He would break down, at last, as every good fortune, as every dynasty, as every civilization does. In place of this we have death. ~Charles Sanders Peirce</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>About Love</h2>
+    <p>A bell is no bell 'til you ring it,
+      A song is no song 'til you sing it,
+      And love in your heart
+      Wasn’t put there to stay -
+      Love isn’t love
+      'Til you give it away.
+~Oscar Hammerstein, Sound of Music, "You Are Sixteen (Reprise)"</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

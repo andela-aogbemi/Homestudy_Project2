@@ -1,0 +1,71 @@
+header {
+      text-align: center;
+      background: url('../images/blog image.jpg');
+      background-size: cover;
+      color: #CC0000;
+      font-family: calibri;
+      font-style: italic;
+}
+
+a {
+  color: pink;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-family: calibri;
+  color: #CC0000;
+}
+
+p {
+ font-weight: bold;
+ font-family: calibri;
+} 
+
+img {
+   margin: 20px 0px 0px 0px;
+   border: 3px solid purple;
+   border-radius: 30px;
+}
+    
+ul {
+  padding: 10px;
+  background: rgba(128,0,128,0.7);
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+}
+   
+@media (max-width: 400px) {
+      h1 {
+        font-size: 30px;
+        padding: 5px;
+      }
+      p {
+        font-size: 12px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+}
+   
+body {
+    background-color: pink;
+}
+
+button {
+      background-color: purple;
+      color: pink;
+}
